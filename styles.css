@@ -1,0 +1,96 @@
+.footer__oval {
+    height: 200px;
+    margin-top: -200px;
+    pointer-events: none;
+    position: relative;
+    z-index: 1;
+}
+
+.footer__motorbike {
+    top: -2vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 95px;
+    height: 83px;
+    z-index: 10000000;
+    transition: .1s;
+    -webkit-animation: motodude-ride 5.5s 1;
+    animation: motodude-ride 5.5s 1;
+    margin: calc(7.1vw - 90px) auto 0;
+    transform: translateY(-100vw) translateX(-100vw);
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes motodude-ride {
+    0% {
+        transform: translateY(50%) translateX(-50vw) rotate(-0.21deg);
+    }
+    10% {
+        transform: translateY(90%) translateX(-40vw) rotate(13deg);
+    }
+    20% {
+        transform: translateY(115%) translateX(-30vw) rotate(8deg);
+    }
+    30% {
+        transform: translateY(130%) translateX(-20vw) rotate(3deg);
+    }
+    40% {
+        transform: translateY(145%) translateX(-10vw) rotate(-50deg);
+    }
+    50% {
+        transform: translateY(150%) translateX(0) rotate(-3deg);
+    }
+    60% {
+        transform: translateY(145%) translateX(10vw) rotate(-5deg);
+    }
+    70% {
+        transform: translateY(130%) translateX(20vw) rotate(-9deg);
+    }
+    80% {
+        transform: translateY(115%) translateX(30vw) rotate(-14deg);
+    }
+    90% {
+        transform: translateY(90%) translateX(40vw) rotate(-20deg);
+    }
+    100% {
+        transform: translateY(50%) translateX(50vw) rotate(-30deg);
+    }
+}
+@keyframes motodude-ride {
+    0% {
+        transform: translateY(50%) translateX(-50vw) rotate(-0.21deg);
+    }
+    10% {
+        transform: translateY(90%) translateX(-40vw) rotate(13deg);
+    }
+    20% {
+        transform: translateY(115%) translateX(-30vw) rotate(8deg);
+    }
+    30% {
+        transform: translateY(130%) translateX(-20vw) rotate(3deg);
+    }
+    40% {
+        transform: translateY(145%) translateX(-10vw) rotate(-50deg);
+    }
+    50% {
+        transform: translateY(150%) translateX(0) rotate(-3deg);
+    }
+    60% {
+        transform: translateY(145%) translateX(10vw) rotate(-5deg);
+    }
+    70% {
+        transform: translateY(130%) translateX(20vw) rotate(-9deg);
+    }
+    80% {
+        transform: translateY(115%) translateX(30vw) rotate(-14deg);
+    }
+    90% {
+        transform: translateY(90%) translateX(40vw) rotate(-20deg);
+    }
+    100% {
+        transform: translateY(50%) translateX(50vw) rotate(-30deg);
+    }
+}
